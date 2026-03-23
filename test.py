@@ -1,6 +1,7 @@
 from argparse import ArgumentParser
 
 import torch
+import torch.nn as nn
 
 from models import SimpleCNN
 from PIL import Image
